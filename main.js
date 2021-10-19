@@ -1,8 +1,8 @@
 function getFirstName(user = {}) {
   return user.firstName
 }
-console.log(getFirstName({firstName: 'Colon', lastName: 'Jaffe'}))
-console.log(getFirstName({firstName: 'Petra', lastName: 'Solano'}))
+// console.log(getFirstName({firstName: 'Colon', lastName: 'Jaffe'}))
+// console.log(getFirstName({firstName: 'Petra', lastName: 'Solano'}))
 
 function getLastName(user = {}) {
   return user.lastName
