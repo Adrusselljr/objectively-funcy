@@ -1,8 +1,8 @@
 function getFirstName(user = {}) {
   return user.firstName
 }
-// console.log(getFirstName({firstName: 'Colon', lastName: 'Jaffe'}))
-// console.log(getFirstName({firstName: 'Petra', lastName: 'Solano'}))
+console.log(getFirstName({firstName: 'Colon', lastName: 'Jaffe'}))
+console.log(getFirstName({firstName: 'Petra', lastName: 'Solano'}))
 
 function getLastName(user = {}) {
   return user.lastName
@@ -17,15 +17,13 @@ function getFullName(user = {}) {
 // console.log(getFullName({firstName: 'Petra', lastName: 'Solano'}))
 
 function setFirstName(user = {}, newFirst) {
-  user.firstName = newFirst
-  return user
+  return user.firstName = newFirst
 }
 // console.log(setFirstName({firstName: 'Colin', lastName: 'Jaffe'}, 'Redacted'))
 // console.log(setFirstName({firstName: 'Petra', lastName: 'Solano'}, 'Anthony'))
 
 function setAge(user = {}, newAge) {
-  user.age = newAge
-  return user
+  return user.age = newAge
 }
 // console.log(setAge({firstName: 'Colin', lastName: 'Jaffe', age: 39}, 45))
 // console.log(setAge({firstName: 'Petra', lastName: 'Solano', age: 29}, 35))
